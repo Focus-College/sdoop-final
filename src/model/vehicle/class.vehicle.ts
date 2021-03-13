@@ -1,19 +1,19 @@
 import { IVehicle, VehicleMake } from './interface.vehicle'
 export class Vehicle implements IVehicle {
     
-    make : VehicleMake
-    model: string
-    year : number
-    _age : number
+    public make : VehicleMake
+    public model: string
+    public year : number
+    public _age : number
+
+    constructor(){
+
+    }
 
 
-    get age(): number{
+    public get age(): number{
 
         return this._age     
     }
 
-}
-
-export class VehicleDirector{
-    
 }

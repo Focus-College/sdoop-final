@@ -6,17 +6,18 @@ export class CarBuilder {
     private car: Car
 
     public setMake( make: VehicleMake ): void {
+        this.car.make = make;
 
     }
 
     public setModel( model: string ): void {
+        this.car.model = model;
 
     }
 
-    getCar(): Car {
+    public getCar(): Car {
 
-
-        return
+        return this.car
     }
 
 

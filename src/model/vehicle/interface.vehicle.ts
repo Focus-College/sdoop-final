@@ -2,7 +2,11 @@ export enum VehicleMake {
     FORD,
     CHEVROLET,
     SUBARU,
-    NISSAN
+    NISSAN,
+    FORD150XLT = "akeFordF150XLT",
+    FORDTAURUS = "FordTaurus",
+    FORDRANGER = "FordRanger",
+    FORDF150 = "FordF150"
 }
 
 export interface IVehicle {
